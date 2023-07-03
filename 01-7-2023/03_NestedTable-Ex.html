@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>Nayan's nested example</center>
+
+    <table
+      border="2"
+      style="height: auto; background-color: yellow; color: blue; width: 600px"
+      rules="all"
+    >
+      <!-- 1st row -->
+      <tr>
+        <th rowspan="3" style="background-color: chartreuse">Day</th>
+        <th colspan="3">Seminar</th>
+      </tr>
+      <!--  2nd row -->
+      <tr>
+        <th colspan="2" style="background-color: chocolate">Schedule</th>
+        <th rowspan="2" style="background-color: cornflowerblue">Topic</th>
+      </tr>
+      <!-- 3rd row  -->
+      <tr>
+        <th>Begin</th>
+        <th>End</th>
+      </tr>
+      <!--  4th row  -->
+      <tr>
+        <th style="background-color: chartreuse" rowspan="2">Monday</th>
+        <td rowspan="2">8:00 am</td>
+        <td rowspan="2">5:00 pm</td>
+        <td style="text-align: center">Introduction To XLS</td>
+      </tr>
+      <!-- 5th row  -->
+      <tr>
+        <td style="text-align: center">Vaidity: DTD and relax NG</td>
+      </tr>
+      <!-- 6th row -->
+      <tr>
+        <th style="background-color: chartreuse" rowspan="3">Tuesday</th>
+        <td>8:00 am</td>
+        <td>11:00 am</td>
+        <td rowspan="3">
+          <table border="" cellpadding="10px" style="width: 100%" rules="all">
+            <tr>
+              <td style="text-align: center">XLS transforming</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- 7th row  -->
+      <tr>
+        <td>11:00 am</td>
+        <td>02:00 pm</td>
+      </tr>
+      <!-- 8th row -->
+      <tr>
+        <td>02:00 pm</td>
+        <td>05:00 pm</td>
+      </tr>
+      <!-- 9th row -->
+      <tr>
+        <th style="background-color: chartreuse">Wednesday</th>
+        <td>08:00 am</td>
+        <td>12:00 pm</td>
+        <td style="text-align: center">XLS formatting Object</td>
+      </tr>
+    </table>
+  </body>
+</html>

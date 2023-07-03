@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- some css property: text align, background-color , color , border color ,height ,  Width  -->
+    <!-- for merge cell use rowspan and colspan attribute -->
+    <!-- when we use rowspan remove from next row  -->
+    <!-- when we use colspan remove columns on that perticular row -->
+    <table
+      border="1"
+      style="text-align:center; height:200px; width:400px; background-color:coral;border-color:white; rules=all "
+    >
+      <caption style="color: blue">
+        <i>A Test table with merge cell</i>
+      </caption>
+      <!-- 1st row -->
+      <tr style="background-color: rgba(223, 241, 158, 0.928)">
+        <th rowspan="2">Gender</th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red Eyes</th>
+      </tr>
+      <!-- 2nd row  -->
+      <tr>
+        <th>Height</th>
+        <th>Weight</th>
+      </tr>
+      <!-- 3rd row  -->
+      <tr>
+        <th>Male</th>
+        <td>1.5</td>
+        <td>0.022</td>
+      </tr>
+      <!-- 4th row -->
+      <tr>
+        <th>Female</th>
+        <td>1.2</td>
+        <td>0.004</td>
+      </tr>
+      <tr style="color: cyan">
+        Nayan Dangar Html
+      </tr>
+    </table>
+  </body>
+</html>
